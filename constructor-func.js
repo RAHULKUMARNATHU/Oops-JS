@@ -49,5 +49,5 @@ depositForm.addEventListener("submit",(e)=>{
   e.preventDefault();
   const account = accounts.find((account) => account.accountNumber === +accountNumber.value);
   account.deposit(+amount.value);
-  console.log(account);
+  console.log(accounts);
 })
